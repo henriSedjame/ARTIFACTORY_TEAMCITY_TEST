@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 public class PersonneService {
 
     public void presenter(Personne personne, Consumer<Personne> presentationconsumer){
-        //Comentaire juste pour commit
+
         presentationconsumer.accept(personne);
     }
 
